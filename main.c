@@ -127,7 +127,7 @@ int main(void)
     }
 
     printf("\x1b[2J\x1b[;H");
-    printf("RutDevKit-PSoC62 Hello World!\r\n");
+    printf("Hello world, I am the RDK2!\r\n");
 
     for (;;)
     {

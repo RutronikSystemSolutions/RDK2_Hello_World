@@ -1,4 +1,4 @@
-# RutDevKit-PSoC62 Hello World
+# RDK2 Hello World
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "Hello World" Example. 
 
@@ -6,11 +6,16 @@ This example is an introduction to the basic components of the board: LEDs, Butt
 
  <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
+## Requirements
+
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v3.0
+
 ### Using the code example with a ModusToolbox IDE:
 
 1. Import the project: **File** > **Import...** > **General** > **Existing Projects into Workspace** > **Next**.
-2. Select the directory where **"RutDevKit-PSoC62_Hello_World"** resides and click  **Finish**.
-3. Select and build the project **Project ** > **Build Project**.
+2. Select the directory where **"RDK2_Hello_World"** resides and click  **Finish**.
+3. Update libraries using  a **"Library Manager"** tool.
+4. Select and build the project **Project ** > **Build Project**.
 
 ### Operation
 
@@ -20,7 +25,7 @@ The firmware example uses KitProg3 Debug UART for debug output. LED1 and LED2 is
 
 ### Debugging
 
-If you successfully have imported the example, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming completes and debug process starts.
+If you successfully have imported the example, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and debugging process to start.
 
 <img src="images/hello_world_debug_start.png" style="zoom:100%;" />
 
