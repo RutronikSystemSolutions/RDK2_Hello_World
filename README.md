@@ -2,17 +2,17 @@
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "Hello World" Example. 
 
-This example is an introduction to the basic components of the board: LEDs, Buttons and KitProg3 UART for debug.
+This example introduces the board's basic components: LEDs, Buttons, and the KitProg3 UART for debugging.
 
 <img src="images/rdk2_rev1.jpg" style="zoom:80%;" />
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.0**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.7** [built with **v3.0**]
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
-- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+- GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example
 
@@ -123,13 +123,13 @@ For a list of supported IDEs and more details, see the "Exporting to IDEs" secti
 
 ### Operation
 
-The firmware example uses KitProg3 Debug UART for debug output. LED1 and LED2 is selected to blink once per second as a button USER_BTN1 or USER_BTN2 is pressed accordingly. Also LEDs are selected if **Enter** key is pressed on the terminal. Use yours preferred terminal software to track the debug output. 
+The firmware example uses KitProg3 Debug UART for debug output. LED1 and LED2 are selected to blink once per second when the button USER_BTN1 or USER_BTN2 is pressed. Also, LEDs are selected if the key is pressed on the terminal. Use your preferred terminal software to track the debug output. 
 
 <img src="images/debug_output_hello_world.png" style="zoom:100%;" />
 
 ### Debugging
 
-If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and the debugging process to start.
+If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3 and MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click the desired debug launch configuration, then wait for programming to complete and debugging to start.
 
 <img src="images/hello_world_debug_start.png" style="zoom:100%;" />
 
